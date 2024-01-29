@@ -137,18 +137,20 @@ if (x<0 && y<0) {Console.WriteLine(3);}
 //Решение
 /*
 int a = 72;
-int firstNumber = 0;
-int secondNumber = 0;
 if (a>10 && a<99)
 {
-    firstNumber=a/10;
-    secondNumber=a%10;
-    int max = firstNumber;
+    int firstNumber=a/10;  // Первое число
+    int secondNumber=a%10; // Второе число
+    int max = firstNumber; // объявляем максимумом первое число
      if (secondNumber>max)
      {
         max=secondNumber;
      }
      Console.WriteLine(max);
+}
+esle
+{
+    Console.WriteLine("Указанное число не находится в интервале от 10 до 99");
 }
 */
 
